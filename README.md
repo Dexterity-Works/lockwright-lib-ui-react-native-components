@@ -68,12 +68,12 @@ The full list is in `package.json`.
 
 ## Related projects
 
-- [lockwright-app-desktop](https://github.com/Thaoh/lockwright-app-desktop)
-- [lockwright-app-mobile](https://github.com/Thaoh/lockwright-app-mobile)
-- [lockwright-app-browser-extension](https://github.com/Thaoh/lockwright-app-browser-extension)
-- [pearpass-utils-password-check](https://github.com/tetherto/pearpass-utils-password-check)
-- [pearpass-lib-ui-theme-provider](https://github.com/tetherto/pearpass-lib-ui-theme-provider)
-- [tether-dev-docs](https://github.com/tetherto/tether-dev-docs)
+- [lockwright-app-desktop](https://github.com/Dexterity-Works/lockwright-app-desktop)
+- [lockwright-app-mobile](https://github.com/Dexterity-Works/lockwright-app-mobile)
+- [lockwright-app-browser-extension](https://github.com/Dexterity-Works/lockwright-app-browser-extension)
+- [pearpass-utils-password-check](https://github.com/Dexterity-Works/pearpass-utils-password-check)
+- [pearpass-lib-ui-theme-provider](https://github.com/Dexterity-Works/pearpass-lib-ui-theme-provider)
+- [tether-dev-docs](https://github.com/Dexterity-Works/tether-dev-docs)
 
 ## Contributing
 
