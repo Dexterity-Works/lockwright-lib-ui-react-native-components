@@ -71,8 +71,8 @@ The full list is in `package.json`.
 - [lockwright-app-desktop](https://github.com/Dexterity-Works/lockwright-app-desktop)
 - [lockwright-app-mobile](https://github.com/Dexterity-Works/lockwright-app-mobile)
 - [lockwright-app-browser-extension](https://github.com/Dexterity-Works/lockwright-app-browser-extension)
-- [pearpass-utils-password-check](https://github.com/Dexterity-Works/pearpass-utils-password-check)
-- [pearpass-lib-ui-theme-provider](https://github.com/Dexterity-Works/pearpass-lib-ui-theme-provider)
+- [pearpass-utils-password-check](https://github.com/Dexterity-Works/lockwright-utils-password-check)
+- [pearpass-lib-ui-theme-provider](https://github.com/Dexterity-Works/lockwright-lib-ui-theme-provider)
 - [tether-dev-docs](https://github.com/Dexterity-Works/tether-dev-docs)
 
 ## Contributing
