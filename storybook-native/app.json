@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Pearpass Storybook",
-    "slug": "pearpass-storybook-native",
+    "name": "Lockwright Storybook",
+    "slug": "lockwright-storybook-native",
     "version": "0.0.1",
     "orientation": "portrait",
     "newArchEnabled": true,

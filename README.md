@@ -10,7 +10,7 @@ Site: [lockwright.dexterity.works](https://lockwright.dexterity.works)
 
 Community fork of PearPass (Apache 2.0). Not affiliated with or endorsed by Tether Data or the Pears project.
 
-Imports stay `@tetherto/pearpass-lib-ui-kit` in the apps. That npm name is not this fork if you install it from the npm registry.
+The package name is `lockwright-lib-ui-react-native-components`.
 
 ## Table of contents
 
@@ -72,7 +72,7 @@ The full list is in `package.json`.
 - [lockwright-app-mobile](https://github.com/Dexterity-Works/lockwright-app-mobile)
 - [lockwright-app-browser-extension](https://github.com/Dexterity-Works/lockwright-app-browser-extension)
 - [pearpass-utils-password-check](https://github.com/Dexterity-Works/lockwright-utils-password-check)
-- [pearpass-lib-ui-theme-provider](https://github.com/Dexterity-Works/lockwright-lib-ui-theme-provider)
+- [lockwright-lib-ui-theme-provider](https://github.com/Dexterity-Works/lockwright-lib-ui-theme-provider)
 - [tether-dev-docs](https://github.com/Dexterity-Works/tether-dev-docs)
 
 ## Contributing

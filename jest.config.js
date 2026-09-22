@@ -5,14 +5,14 @@ export default {
   },
   modulePaths: ['<rootDir>', '<rootDir>/node_modules'],
   moduleNameMapper: {
-    '^pearpass-lib-ui-theme-provider/native$':
-      '<rootDir>/node_modules/pearpass-lib-ui-theme-provider/native/index.js',
-    '^pearpass-lib-ui-theme-provider$':
-      '<rootDir>/node_modules/pearpass-lib-ui-theme-provider/src/index.js',
+    '^lockwright-lib-ui-theme-provider/native$':
+      '<rootDir>/node_modules/lockwright-lib-ui-theme-provider/native/index.js',
+    '^lockwright-lib-ui-theme-provider$':
+      '<rootDir>/node_modules/lockwright-lib-ui-theme-provider/src/index.js',
     '^@gorhom/bottom-sheet$': '<rootDir>/__mocks__/@gorhom/bottom-sheet.tsx'
   },
   transformIgnorePatterns: [
-    'node_modules/(?!(react-native|@react-native|@react-native-community|react-native-reanimated|styled-components|@testing-library/react-native|pearpass-lib-ui-theme-provider|pearpass-lib-ui-theme-provider/native|pearpass-lib-ui-react-native-components|react-strict-dom)/)'
+    'node_modules/(?!(react-native|@react-native|@react-native-community|react-native-reanimated|styled-components|@testing-library/react-native|lockwright-lib-ui-theme-provider|lockwright-lib-ui-theme-provider/native|pearpass-lib-ui-react-native-components|react-strict-dom)/)'
   ],
   testMatch: ['<rootDir>/src/**/*.test.{js,jsx,ts,tsx}']
 }
