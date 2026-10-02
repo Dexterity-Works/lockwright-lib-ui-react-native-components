@@ -1,6 +1,7 @@
 import { Linking } from 'react-native';
 
-export const getPlatformHref = () => undefined;
+// eslint-disable-next-line @typescript-eslint/no-unused-vars
+export const getPlatformHref = (_href?: string) => undefined;
 
 export const useLinkPress = (href?: string) => {
     if (!href || href.startsWith('#')) return undefined;

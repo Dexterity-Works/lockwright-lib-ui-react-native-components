@@ -1,7 +1,14 @@
 import React from 'react'
 import { NativeBottomSheet, NativeBottomSheetProps } from '../NativeBottomSheet'
 
-export type ContextMenuProps = NativeBottomSheetProps
+// Web layout props are accepted so shared callers typecheck on native. The bottom sheet ignores them.
+export type ContextMenuProps = NativeBottomSheetProps & {
+  menuWidth?: number
+  fullWidth?: boolean
+  closeOnContentClick?: boolean
+  stretch?: boolean
+  menuPlacement?: 'top' | 'bottom'
+}
 
 export const ContextMenu: React.FC<ContextMenuProps> = ({
   trigger,

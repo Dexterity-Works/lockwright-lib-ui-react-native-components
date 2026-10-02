@@ -109,7 +109,7 @@ export const ListItem = React.forwardRef<HTMLDivElement, ListItemProps>(
 
     return (
       <Pressable
-        ref={ref}
+        ref={ref as React.Ref<never>} // Pressable.native wants a View ref
         data-testid={testID}
         onClick={handlePress}
         onLongPress={selectionMode !== 'multi' ? onLongPress : undefined}

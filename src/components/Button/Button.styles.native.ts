@@ -134,6 +134,19 @@ export const styles = css.create({
         borderColor: 'transparent',
         color: tokens.colorTextDisabled,
     },
+    variantTertiaryAccent: {
+        backgroundColor: 'transparent',
+        borderColor: 'transparent',
+        color: tokens.colorPrimary,
+    },
+    variantTertiaryAccentPressed: {
+        backgroundColor: tokens.colorSurfaceElevatedOnInteraction,
+    },
+    variantTertiaryAccentDisabled: {
+        backgroundColor: 'transparent',
+        borderColor: 'transparent',
+        color: tokens.colorTextDisabled,
+    },
     variantDestructive: {
         backgroundColor: tokens.colorSurfaceDestructive,
         borderColor: tokens.colorSurfaceDestructive,
@@ -155,6 +168,9 @@ export const styles = css.create({
         color: tokens.colorTextPrimary,
     },
     textTertiary: {
+        color: tokens.colorPrimary,
+    },
+    textTertiaryAccent: {
         color: tokens.colorPrimary,
     },
     textDestructive: {
