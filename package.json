@@ -1,42 +1,17 @@
 {
   "name": "lockwright-lib-ui-react-native-components",
-  "version": "0.0.40",
+  "version": "0.0.41",
   "type": "module",
   "description": "React native components for Lockwright",
-  "main": "dist/index.js",
-  "module": "dist/index.js",
-  "types": "dist/index.d.ts",
+  "main": "src/index.ts",
+  "types": "src/index.ts",
   "exports": {
-    ".": {
-      "types": "./dist/index.d.ts",
-      "import": "./dist/index.js",
-      "require": "./dist/index.js"
-    },
-    "./theme": {
-      "types": "./dist/theme/index.d.ts",
-      "import": "./dist/theme/index.js",
-      "require": "./dist/theme/index.js"
-    },
-    "./components": {
-      "types": "./dist/components/index.d.ts",
-      "import": "./dist/components/index.js",
-      "require": "./dist/components/index.js"
-    },
-    "./components/*": {
-      "types": "./dist/components/*/index.d.ts",
-      "import": "./dist/components/*/index.js",
-      "require": "./dist/components/*/index.js"
-    },
-    "./icons": {
-      "types": "./dist/icons/index.d.ts",
-      "import": "./dist/icons/index.js",
-      "require": "./dist/icons/index.js"
-    },
-    "./icons/*": {
-      "types": "./dist/icons/components/*.d.ts",
-      "import": "./dist/icons/components/*.js",
-      "require": "./dist/icons/components/*.js"
-    },
+    ".": "./src/index.ts",
+    "./theme": "./src/theme/index.ts",
+    "./components": "./src/components/index.ts",
+    "./components/*": "./src/components/*/index.ts",
+    "./icons": "./src/icons/index.ts",
+    "./icons/*": "./src/icons/components/*.tsx",
     "./tailwind.css": "./src/theme/tailwind-theme.css",
     "./package.json": "./package.json"
   },
@@ -47,8 +22,6 @@
     "generate-icons:web": "svgr --out-dir src/icons/components src/icons/assets",
     "generate-icons:native": "svgr --native --ext native.tsx --no-index --out-dir src/icons/components src/icons/assets",
     "generate-icons": "npm run generate-icons:web && npm run generate-icons:native && node scripts/generate-icon-story.mjs",
-    "build": "npx tsc --project tsconfig.build.json",
-    "prepare": "npm run build && (husky || true)",
     "lint": "eslint ./src",
     "lint:fix": "eslint --fix ./src",
     "test": "node --test scripts/lockwright-tokens.test.js && jest",
