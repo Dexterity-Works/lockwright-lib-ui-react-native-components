@@ -65,7 +65,7 @@ exports[`RingSpinner matches snapshot with mocked countdown 1`] = `
         r={9}
         stroke={
           {
-            "payload": 4281087512,
+            "payload": 4280954422,
             "type": 0,
           }
         }
@@ -105,7 +105,7 @@ exports[`RingSpinner matches snapshot with mocked countdown 1`] = `
           r={9}
           stroke={
             {
-              "payload": 4289780036,
+              "payload": 4289760599,
               "type": 0,
             }
           }
