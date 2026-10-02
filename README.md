@@ -16,6 +16,7 @@ The package name is `lockwright-lib-ui-react-native-components`.
 
 - [Architecture](#architecture)
 - [Getting started](#getting-started)
+- [Consuming the kit](#consuming-the-kit)
 - [Dependencies](#dependencies)
 - [Related projects](#related-projects)
 - [Contributing](#contributing)
@@ -54,6 +55,17 @@ npx expo run:android
 ```
 
 The native app in `storybook-native/` loads the same stories.
+
+## Consuming the kit
+
+The kit ships TypeScript source. Nothing runs at install, so no `allowBuilds` entry. Each app compiles `src/` with its own bundler:
+
+- Pin a commit, not a branch.
+- Run the `react-strict-dom/babel-preset` over `node_modules/lockwright-lib-ui-react-native-components/src`.
+- Use the automatic JSX runtime.
+- Resolve `.ts` and `.tsx`. Web resolves `tokens.css` to `tokens.css.ts`. Metro picks `.native.tsx`.
+- Web CSS extraction includes `src/**/*.{ts,tsx}` and excludes `*.native.tsx`, `*.stories.tsx`, `*.test.tsx`.
+- Your `tsc` checks the kit's source with your settings.
 
 ## Dependencies
 

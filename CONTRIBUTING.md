@@ -17,7 +17,10 @@ Start small. Tests, failing and passing, help.
 - One feature or bug per pull request
 - Describe the change
 - `npm run lint` must pass
+- `npm run typecheck` must pass
 - `npm test` must pass, except tests you added that are meant to fail
+
+Install does not set up git hooks. Run `npx husky` once for the pre-commit lint.
 
 ## License
 
